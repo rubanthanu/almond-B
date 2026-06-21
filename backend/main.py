@@ -9,7 +9,7 @@ import numpy as np
 
 # Resolve path to model file
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.abspath(os.path.join(BASE_DIR, "..", "model_package.pkl"))
+MODEL_PATH = os.path.abspath(os.path.join(BASE_DIR, "model_package.pkl"))
 
 # Define input features model supporting aliases and camelCase/PascalCase
 class AlmondFeatures(BaseModel):
