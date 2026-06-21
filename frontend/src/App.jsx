@@ -18,32 +18,32 @@ const PRESETS = {
     convex_hull_area: 29593.05
   },
   SANORA: {
-    length: 283.25,
-    width: 180.12,
+    length: 240.53,
+    width: 144.57,
     thickness: 115.37,
-    area: 27383.59,
-    perimeter: 736.37,
-    roundness: 0.50,
-    solidity: 0.96,
-    compactness: 1.69,
-    aspect_ratio: 1.63,
-    eccentricity: 0.79,
-    extent: 0.73,
-    convex_hull_area: 28361.94
+    area: 26640.50,
+    perimeter: 648.26,
+    roundness: 0.5863,
+    solidity: 0.9877,
+    compactness: 1.2553,
+    aspect_ratio: 1.6638,
+    eccentricity: 0.7992,
+    extent: 0.7660,
+    convex_hull_area: 26973.50
   },
   REGULAR: {
-    length: 265.6,
-    width: 161.2,
+    length: 304.60,
+    width: 166.93,
     thickness: 112.33,
-    area: 24271.05,
-    perimeter: 688.49,
-    roundness: 0.51,
-    solidity: 0.97,
-    compactness: 1.68,
-    aspect_ratio: 1.68,
-    eccentricity: 0.80,
-    extent: 0.74,
-    convex_hull_area: 25109.9
+    area: 39379.50,
+    perimeter: 815.51,
+    roundness: 0.5404,
+    solidity: 0.9865,
+    compactness: 1.3439,
+    aspect_ratio: 1.8248,
+    eccentricity: 0.8365,
+    extent: 0.7690,
+    convex_hull_area: 39916.50
   }
 };
 
