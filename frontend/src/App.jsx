@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const API_BASE_URL = 'http://127.0.0.1:8000';
+const API_BASE_URL = 'https://adequate-compassion-production-88d5.up.railway.app';
 
 const PRESETS = {
   MAMRA: {
