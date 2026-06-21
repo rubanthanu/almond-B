@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const API_BASE_URL = '';
+const API_BASE_URL = 'https://adequate-compassion-production-88d5.up.railway.app';
 
 const PRESETS = {
   MAMRA: {
@@ -425,19 +425,19 @@ export default function App() {
                               User: {isNaN(userVal) ? 'NaN' : userVal.toFixed(2)} | Avg: {targetVal.toFixed(2)}
                             </span>
                           </div>
-                          
+
                           {/* User Bar */}
                           <div className="chart-bar-bg">
-                            <div 
-                              className="chart-bar-fill user" 
+                            <div
+                              className="chart-bar-fill user"
                               style={{ width: `${userPercent}%` }}
                             ></div>
                           </div>
-                          
+
                           {/* Average Bar */}
                           <div className="chart-bar-bg" style={{ height: '4px', marginTop: '-4px', opacity: 0.75 }}>
-                            <div 
-                              className="chart-bar-fill target" 
+                            <div
+                              className="chart-bar-fill target"
                               style={{ width: `${targetPercent}%` }}
                             ></div>
                           </div>
